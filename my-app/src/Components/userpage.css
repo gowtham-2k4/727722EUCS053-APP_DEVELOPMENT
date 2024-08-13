@@ -1,0 +1,84 @@
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .header-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .web-logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .header-title-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefcfc;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav {
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 15px;
+  }
+  
+  .links {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .links:hover {
+    color: #007bff;
+  }
+  
+  .profile-icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for Profile Icon and Dropdown */
+  .MuiIconButton-root {
+    padding: 0;
+  }
+  
+  .MuiAvatar-root {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .MuiMenu-paper {
+    margin-top: 40px;
+  }
+  
+  .MuiMenuItem-root {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  .MuiMenuItem-root:hover {
+    background-color: #f1f1f1;
+  }
+  

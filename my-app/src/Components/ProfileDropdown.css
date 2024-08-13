@@ -1,0 +1,71 @@
+/* Container for the profile icon */
+.profile-icon-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the icon button */
+  .MuiIconButton-root {
+    padding: 0;
+  }
+  
+  /* Style for the avatar image */
+  .MuiAvatar-root {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid #f1f1f1; /* Optional: Add a border to the avatar */
+    transition: border-color 0.3s ease;
+  }
+  
+  .MuiAvatar-root:hover {
+    border-color: #007bff; /* Change border color on hover */
+  }
+  
+  /* Popper container styling */
+  .MuiPopper-root {
+    z-index: 1300; /* Ensure it appears above other elements */
+  }
+  
+  /* Dropdown menu styling with translucent background */
+  .MuiPaper-root {
+    margin-top: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    animation: dropdown-appear 0.3s ease-out; /* Apply the custom animation */
+    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    backdrop-filter: blur(10px); /* Optional: Adds a blur effect to the background */
+  }
+  
+  /* Dropdown menu items styling */
+  .MuiMenuItem-root {
+    font-size: 16px;
+    padding: 10px 20px;
+    color: #333;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+  
+  /* Hover effect for dropdown menu items */
+  .MuiMenuItem-root:hover {
+    background-color: rgba(241, 241, 241, 0.8); /* Translucent hover effect */
+    color: #007bff; /* Optional: Change text color on hover */
+  }
+  
+  /* Custom dropdown animation */
+  @keyframes dropdown-appear {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Ensures the dropdown menu does not have an outline on focus */
+  .MuiPaper-root:focus {
+    outline: none;
+  }
+  

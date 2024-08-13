@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "Firstname": "Hari",
+      "Lastname": "Baskar",
+      "Email": "hb@gmail.com",
+      "Password": "hb",
+      "id": 1
+    },
+    {
+      "Firstname": "Adhish",
+      "Lastname": "S R",
+      "Email": "asr@gmail.com",
+      "Password": "123",
+      "id": 2
+    }
+  ],
+  "halls": [
+    {
+      "name": "HB",
+      "location": "Salem",
+      "price": "90000",
+      "rating": "3",
+      "id": 1
+    },
+    {
+      "name": "AD",
+      "location": "Madurai",
+      "price": "8900",
+      "rating": "5",
+      "id": 2
+    }
+  ]
+}

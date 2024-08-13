@@ -1,0 +1,84 @@
+.admin-div{
+    background-color: rgba(113, 113, 113, 0.123);
+    border-radius: 5%;
+    height: 400px;
+    width: 300px;
+    margin-right: 10%;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: brown;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.user-div{
+    background-color: rgba(113, 113, 113, 0.123);
+    height: 400px;
+    width: 300px;
+    margin-right: 10%;
+    border-radius: 5%;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: brown;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.owner-div{
+    background-color: rgba(113, 113, 113, 0.123);
+    height: 400px;
+    width: 300px;
+    border-radius: 5%;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: brown;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+    
+    
+}
+
+.outer-roles-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.outer-roles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    width: fit-content;
+}
+
+.admin-logo{
+    margin-top: 15px;
+    height: 140px;
+    width: 140px;
+}
+
+.user-logo{
+    margin-top: 15px;
+    height: 140px;
+    width: 140px;
+}
+
+.owner-logo{
+    margin-top: 15px;
+    height: 140px;
+    width: 140px;
+}
+
+.btn-admin-login{
+    margin-top: 30px;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: large;
+}
+
+.roles-title{
+    text-decoration: underline;
+}
+
+.title-text{
+    margin-top: 3%;
+}

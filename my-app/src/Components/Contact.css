@@ -1,0 +1,128 @@
+/* src/Contact.css */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    
+  }
+
+ .contact-para{
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+ }
+  
+  .contact-container h1 {
+    color: #0033cc;
+    font-size: 60px;
+  }
+
+  
+  .contact-container p {
+    color: #666;
+    font-size: 18px;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .contact-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+  }
+  
+  .contact-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    margin: 5px 0;
+  }
+  
+  .contact-card a {
+    background: #24252a;
+    text-decoration: none;
+  }
+  
+  .contact-card a:hover {
+    text-decoration: underline;
+  }
+  
+  .free-trial-section {
+    background: linear-gradient(to right, #ff5858, #0033cc);
+    color: white;
+    border-radius: 0;
+    padding: 40px 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .free-trial-section h2 {
+    font-size: 28px;
+  }
+  
+  .free-trial-section p {
+    font-size: 18px;
+  }
+  
+  .trial-buttons {
+    margin-top: 20px;
+  }
+  
+  .free-trial-button,
+  .contact-us-button {
+    background-color: #d80027;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .contact-us-button {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  
+  .free-trial-button:hover,
+  .contact-us-button:hover {
+    background-color: white;
+    color: #d80027;
+  }
+  
+ 
+  
+ 
+
+  
+  .ctn button {
+    background-color: white;
+    color: #0033cc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ctn button:hover {
+    background-color: #0033cc;
+    color: white;
+    border: 1px solid white;
+  }
